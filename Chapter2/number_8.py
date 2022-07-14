@@ -1,0 +1,6 @@
+print(1+7)
+print(1000000-999992)
+print(2*4)
+print(64/8)
+print(64//8)
+print(17 % 9)

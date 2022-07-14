@@ -1,0 +1,12 @@
+fav_language ={
+    'jason' : 'python',
+    'Jaden' : 'Java',
+    'Philip' : 'ruby'
+}
+
+
+peoples = ['swim', 'jimmithy', 'zach','Mila','Nova','Kai','Aaliyah','Braxton','Zion','Maeve','Mia','Ivy','Urban','Ari','Aurora',"Kayden","Eliana","Hunter","Amelia","Amara","LylaQuinn",'Liam','Olivia' ,'Noah'  ,'Emma' ,'Oliver','Ava' ,'Elijah' ,'Charlotte' ,'William  ','Sophia' ,'James',  'Amelia ','Benjamin'  ,'Isabella' ,'Lucas'  ,'Mia' 'Henry'  ,'Evelyn' 'Alexander','HarperOlivia',"Emma",'Ava','Charlotte','Sophia','Amelia','Isabella','Mia','Evelyn','Harper','Camila','Gianna','Abigail','Luna','Ella','Elizabeth','Sofia','Emily','Avery','Mila','Scarlett','Eleanor','Madison','Layla','Penelope','Aria','Chloe','Grace','Ellie','Nora','Hazel','Zoey','Riley','Victoria','Lily','Aurora','Violet','Nova','Hannah','Emilia','Zoe','Stella','Everly','Isla','Leah','Lillian','Jason','Jaden', 'Philip','Addison','Willow','Lucy','Paisley','Natalie','Naomi','Eliana','Brooklyn','Elena','Aubrey','Claire','Ivy','Kinsley','Audrey','Maya','Genesis','Skylar','Bella','Aaliyah','Madelyn','Savannah','Anna','Delilah','Serenity','Caroline','Kennedy','Valentina','Ruby','Sophie','Alice','Gabriella','Sadie','Ariana','Allison','Hailey','Autumn','Nevaeh','Natalia','Quinn','Josephine','Sarah','Cora','Emery','Samantha','Piper','Leilani','Eva','Everleigh','Madeline','Lydia','Jaden','Peyton','Brielle','Adeline','Vivian','Rylee','Clara','Raelynn','Melanie','Melody','Julia','Athena','Maria','Liliana','Hadley','Arya','Rose','Reagan','Eliza','Adalynn','Kaylee','Lyla','Mackenzie','Alaia','Isabelle','Charlie','Arianna','Mary','Remi','Margaret','Iris','Parker','Ximena','Eden','Ayla','Kylie','Elliana','Josie','Katherine','Faith','Alexandra','Eloise','Adalyn','Amaya','Jasmine','Amara','Reese','Valerie','Brianna','Cecilia','Andrea','Summer','Valeria','Norah','Ariella','Esther','Ashley','Emerson','Aubree','Isabel','Anastasia','Ryleigh','Khloe','Taylor','Londyn','Lucia','Emersyn','Callie','Sienna','Blakely','Kehlani','Genevieve','Alina','Bailey','Juniper','Maeve','Molly','Harmony','Georgia','Magnolia','Catalina','Freya','Juliette','Sloane','June','Sara','Ada','Kimberly','River','Ember','Juliana','Aliyah','Millie','Brynlee','Teagan','Morgan','Jordyn','London','Alaina','Olive','Rosalie','Alyssa','Ariel','Finley','Arabella']
+
+for people in peoples:
+  if people not in fav_language.keys():
+    print(f"Hi, {people} please take our poll.")
